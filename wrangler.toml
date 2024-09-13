@@ -1,0 +1,10 @@
+name = "cursorhustle"
+compatibility_date = "2024-09-21"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".vercel/output/static"
+
+[[d1_databases]]
+binding = "MY_DB"
+database_name = "cursorhustle"
+database_id = "e94c8997-1dc5-4b49-ad93-85bfbb0d30e8"
+migrations_dir = "./db/migrations"
